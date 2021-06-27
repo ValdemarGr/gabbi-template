@@ -1,0 +1,81 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, total={6.4in, 8in}]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+
+\newcounter{problemcounter}
+\newcommand{\problem}[1]{
+  \stepcounter{problemcounter}
+  \noindent \textbf{Problem \theproblemcounter.} #1
+  \\\\
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Grissemus (123examnumber)\\University of Southern Denmark}
+\lhead{Advanced Linear Algebra (MM853)}
+\rfoot{Page \thepage}
+
+\begin{document}
+\problem{
+  Hej gubse du er en $A: \mathbb{C} \rightarrow \mathbb{C}$.
+  \\
+  $\overline{a}^2$
+  \\
+  Vi kan ogsaa lave multiline!
+  \begin{align}
+& \alpha + \beta\\
+=\,\,& \text{grissemus} - \beta^2\\
+=\,\,& 100!
+  \end{align}
+}
+\problem{
+  Hesten er.
+  \begin{equation}
+    V := \{p \in \mathbb{Q}[x] \mid p \text{ has degree at most } 3\}
+  \end{equation}
+}
+\problem{
+  Du er en grissemus af vektoren
+  \begin{equation}
+  A 
+\begin{pmatrix}
+\alpha\\
+\beta\\
+\gamma
+\end{pmatrix}
+  =
+\begin{pmatrix}
+i \beta + 3\gamma\\
+- i \alpha + 2\beta\\
+3 \alpha - 2 \gamma
+\end{pmatrix}
+  \end{equation}
+}
+\problem{
+  Vi kan ogsaa lave en stooor matrice!
+  \begin{equation}
+\text{mus} = 
+\begin{bmatrix}
+0 & 1 & 0 \dots & \dots & 0\\
+\vdots & 0 & 2 & 0 & \dots & \vdots\\
+\vdots & \vdots & \vdots & \ddots & \ddots & \vdots
+\end{bmatrix}
+  \end{equation}
+}
+\problem{
+  mus
+  \begin{equation}
+\text{mus} = 
+\begin{cases}
+\text{gris}^2 & \text{if mus} \equiv \text{gubse}\\
+\text{ikke gris} & \text{otherwise}
+\end{cases}
+  \end{equation}
+}
+\end{document}
